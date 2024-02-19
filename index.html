@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    
+  </head>
+  <body>
+    <header class=" header container">
+      <nav>
+        <ul class="header__menu">
+          <li><a class="header__link" href="#about">About</a></li>
+          <li><a class="header__link" href="#portfolio">Portfolio</a></li>
+          <li><a class="header__link" href="#contact">Contact</a></li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+                <path 
+                 d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+              </svg>
+            </button>
+          </li>
+          <li>
+            <a class="header_resume btn" href="#">RESUME</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+          
+        </button>
+      </nav> 
+    </header>
+    <main>
+
+      <section class="hero container">
+        <img class="hero__img" src="/1.png" alt="Brook Lemma">
+        <h2 class="hero__subtitles">Hi, I'm BROOK🙋🏽‍♂️</h2>
+        <h1 class="hero__title">Full stack <br>web developer</h1>
+        <p class="hero__discription">
+          A passionate <strong> Frontend/ Fullstack</strong> web developer and UI/UX
+          enthusiast specialized in building stunning pixel perfect interactive websites
+          and applications  
+        </p>
+        <a class="hero__btn btn" href="#contact">Contact</a>
+      </section>
+
+
+      <section id="about" class="about container section">
+        
+         <div class="about__content">
+          <h2 class="about__title">About me</h2>
+          <p class="about__dis">Hi there! I'm <strong>Brook</strong>👋🏽, a passionate Full stack web developer based in Ethiopia, with 2 years of experience in crafting responsive, user-friendly websites and web applications</p>
+          <p class="about__dis">What sets me apart is my commitment to staying updated with the latest technologies and industry trends.</p>
+          
+          <hr class="about__hr" >
+          <h3 class="about__subtitle">Servise</h3>
+          <div class="about__ul-container">
+          <ul class="about__ul">
+            <div class="card">
+              <div class="icon">
+                  <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"></path>
+                  </svg>
+              </div>
+              <strong> UI/UX DESIGN
+              </strong>
+              <div class="card__body">
+                  Get UI elements that help you stand out.
+              </div>
+              <span>I GOT YOU</span>
+            </div>
+               <br>
+            <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"></path>
+                </svg>
+            </div>
+            <strong> GRAPHIC DESIGN
+            </strong>
+            <div class="card__body">
+                Get UI elements that help you stand out.
+            </div>
+            <span>I GOT YOU</span>
+            </div>
+          </ul>
+          <ul class="about__ul">
+            <div class="card">
+            <div class="icon">
+                <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"></path>
+                </svg>
+            </div>
+            <strong> WEB DESIGN
+            </strong>
+            <div class="card__body">
+                Get UI elements that help you stand out.
+            </div>
+            <span>I GOT YOU</span>
+            </div>
+              <br>
+            <div class="card">
+          <div class="icon">
+              <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11.984 16.815c2.596 0 4.706-2.111 4.706-4.707 0-1.409-.623-2.674-1.606-3.538-.346-.303-.735-.556-1.158-.748-.593-.27-1.249-.421-1.941-.421s-1.349.151-1.941.421c-.424.194-.814.447-1.158.749-.985.864-1.608 2.129-1.608 3.538 0 2.595 2.112 4.706 4.706 4.706zm.016-8.184c1.921 0 3.479 1.557 3.479 3.478 0 1.921-1.558 3.479-3.479 3.479s-3.479-1.557-3.479-3.479c0-1.921 1.558-3.478 3.479-3.478zm5.223.369h6.777v10.278c0 2.608-2.114 4.722-4.722 4.722h-14.493c-2.608 0-4.785-2.114-4.785-4.722v-10.278h6.747c-.544.913-.872 1.969-.872 3.109 0 3.374 2.735 6.109 6.109 6.109s6.109-2.735 6.109-6.109c.001-1.14-.327-2.196-.87-3.109zm2.055-9h-12.278v5h-1v-5h-1v5h-1v-4.923c-.346.057-.682.143-1 .27v4.653h-1v-4.102c-1.202.857-2 2.246-2 3.824v3.278h7.473c1.167-1.282 2.798-2 4.511-2 1.722 0 3.351.725 4.511 2h7.505v-3.278c0-2.608-2.114-4.722-4.722-4.722zm2.722 5.265c0 .406-.333.735-.745.735h-2.511c-.411 0-.744-.329-.744-.735v-2.53c0-.406.333-.735.744-.735h2.511c.412 0 .745.329.745.735v2.53z"></path>
+              </svg>
+          </div>
+          <strong> WEB DEVELOPER
+          </strong>
+          <div class="card__body">
+              Get UI elements that help you stand out.
+          </div>
+          <span>I GOT YOU</span>
+            </div>
+
+          </ul>
+         </div>
+        </div>
+
+         <div>
+          <img src="/1.png" alt="Profile pic" width="100%">
+         </div>
+      </section>
+
+
+      <section id="portfolio" class="featured container section"> 
+        <h3 class="featured__subtitle">Portfolio</h3>
+        <h2 class="featured__title">My Masterpiece Collection</h2>
+        <p class="featured__dis">Welcome to my masterpiece collection.
+          Where digital artistry meets functionality in perfect harmony. 
+          Each website in this curated selection is a testament to meticulous craftsmanship, innovative design, and seamless user experience.
+
+        </p>
+      <div class="featured__info-container">
+      <div>
+        <h3 class="featured__lable">Tech Stack</h3>
+        <ul class="featured__tech-stack">
+          <li class="featured__info">HTML</li>
+          <li class="featured__info">CSS</li>
+          <li class="featured__info">JAVASCRIPT</li>
+          <li class="featured__info">REACTJS</li>
+          <li class="featured__info">GSAP</li>
+          <li class="featured__info">NEXTJS</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="featured__lable">Project type</h3>
+        <ul class="featured__tech-stack">
+          <li class="featured__info">Buisnnes websites</li>
+          <li class="featured__info">Hotel menus</li>
+          <li class="featured__info">Personal porfolios</li>
+          <li class="featured__info">Web applications</li>
+          
+        </ul>
+      </div>
+      <div>
+        <h3 class="featured__lable">History</h3>
+        <p class="featured__info">Freelancing since 2020</p>
+      </div>
+    </div>
+    
+      </section>
+      <section class="work container section">
+        <div class="work__container">
+        <!--projects-->
+        <h3 class="work__project-title" >Websites 1</h3>
+        <div class="work__image1">
+        <img class="about__img" src="./public/project-image01.png" alt="">
+        </div>
+        <div class="working__project  work__content1">
+        <h3 class="work__project-subtitiles">Websites</h3>
+        <p class="work__project-dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat laborum, culpa adipisci at molestiae soluta dignissimos asperiores dolor ab? Nostrum tenetur sapiente aliquam qui animi, dolore laborum mollitia officia?</p>
+        <a class="btn work__project-btn" href="#">Websites</a>
+        </div>
+        <!--projects-->
+        <h3 class="work__project-title">Websites 2</h3>
+        <div class="work__image2">
+        <img class="about__img" src="./public/project-image01.png" alt="">
+      </div>
+        <div class="working__project work__content2">
+          <h3 class="work__project-subtitiles">Websites</h3>
+        <p class="work__project-dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat laborum, culpa adipisci at molestiae soluta dignissimos asperiores dolor ab? Nostrum tenetur sapiente aliquam qui animi, dolore laborum mollitia officia?</p>
+        <a class="btn work__project-btn" href="#">Websites</a>
+        </div>
+        <!--projects-->
+        <h3 class="work__project-title">Websites 3</h3>
+        <div class="work__image3">
+        <img class="about__img" src="./public/project-image01.png" alt="">
+      </div>
+        <div class="working__project work__content3">
+        <h3 class="work__project-subtitiles">Websites</h3>
+        <p class="work__project-dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat laborum, culpa adipisci at molestiae soluta dignissimos asperiores dolor ab? Nostrum tenetur sapiente aliquam qui animi, dolore laborum mollitia officia?</p>
+        <a class="btn work__project-btn" href="#">Websites</a>
+        </div>
+        <!--projects-->
+        <h3 class="work__project-title">Websites 4</h3>
+        <div class="work__image4">
+        <img class="about__img" src="./public/project-image01.png" alt="">
+        </div>
+        <div class="working__project work__content4">
+        <h3 class="work__project-subtitiles">Websites</h3>
+        <p class="work__project-dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat laborum, culpa adipisci at molestiae soluta dignissimos asperiores dolor ab? Nostrum tenetur sapiente aliquam qui animi, dolore laborum mollitia officia?</p>
+        <a class="btn work__project-btn" href="#">Websites</a>
+        </div>
+      </div>
+        
+      </section>
+      <section id="contact" class="contact section container">
+      <div class="contact__body">
+      <form action="">
+        <h3 class="contact__title">Get In Touch</h3>
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <textarea name="" id="message" cols="30" rows="5" placeholder="How can I help you"></textarea>
+        <button class="btn">Send</button>
+      </form>
+      </div>
+      </section>
+    </main>
+
+    <footer class="footer container section">
+        <h3>~BROOK LEMMA~</h3>
+    </footer>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
